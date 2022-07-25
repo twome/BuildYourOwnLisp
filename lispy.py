@@ -87,6 +87,7 @@ header = """
   </head>
   <body>
   <div class="tiled-roof">
+    <button id="color-scheme-toggle" class="color-scheme-toggle">🌔</button>
     <div class="container">
         <div class="row">
          <div class="col-xs-12">
@@ -104,11 +105,12 @@ footer = """
     <script src="/static/js/bootstrap.js"></script>
 
     <!-- Syntax Highlighting -->
-
     <script src="/static/js/rainbow.js"></script>
     <script src="/static/js/language/generic.js"></script>
     <script src="/static/js/language/c.js"></script>
     <script src="/static/js/language/lispy.js"></script>
+
+    <script src="/static/js/main.js"></script>
   </div>
   </body>
 </html>

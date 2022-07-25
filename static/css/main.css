@@ -170,6 +170,12 @@ td {
 }
 
 /* Handle dark mode */
+.color-scheme-toggle {
+	position: absolute; /* Prevent the button's presence disrupting vertical content flow */
+	left: 10px;
+	top: 30px;
+	font-family: initial; /* HACK: Sidesteps vertical centre-alignment issue with the specific font Kalinga */
+}
 @media (prefers-color-scheme: dark) {
 	:root {
 		--text-color          : var(--beige);
